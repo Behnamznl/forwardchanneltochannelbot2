@@ -3,7 +3,7 @@ from pyrogram import *
 api_id = '17683843'
 api_hash = '45865a99da5a1296879e48ca89801759'
 
-bot_tok = '5053121664:AAGnzffX4z5AS7306_A3pRbCNm9UL59e3Pw'
+bot_tok = '5058348819:AAHkQ7I2DY2sH6_NC_4Ck0wWBwb9NK0nkfo'
 
 plugins = dict(root='plugins')
 
