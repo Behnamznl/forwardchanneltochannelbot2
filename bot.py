@@ -6,9 +6,9 @@ api_hash = '45865a99da5a1296879e48ca89801759'
 bot_tok = '5053121664:AAGnzffX4z5AS7306_A3pRbCNm9UL59e3Pw'
 
 
-app = Client('forwardchanneltochannelbot1', api_id, api_hash, bot_token=bot_tok)
+app = Client('forwardchanneltochannelbot', api_id, api_hash, bot_token=bot_tok)
 
-@Client.on_message(filters.forwarded, group=4)
+@Client.on_message(filters.forwarded)
 async def idd23(client4, message4):
     message4.text = message4.text.split('@Divar_Daneshjooyan')[0]
     message4.text = message4.text + str('@DarkhasthayDaneshjo')
