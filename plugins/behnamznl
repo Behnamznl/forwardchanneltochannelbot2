@@ -1,0 +1,6 @@
+from pyrogram import *
+@Client.on_message(filters.forwarded, group=4)
+async def idd23(client4, message4):
+    message4.text = message4.text.split('@Divar_Daneshjooyan')[0]
+    message4.text = message4.text + str('@DarkhasthayDaneshjo')
+    await client4.send_message(chat_id='-1001685148429', text=message4.text)
