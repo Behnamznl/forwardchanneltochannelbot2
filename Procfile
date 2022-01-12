@@ -1,1 +1,1 @@
-worker: python main_fctc.py
+worker: python main.py
